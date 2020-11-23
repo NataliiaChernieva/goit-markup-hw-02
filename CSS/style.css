@@ -1,0 +1,159 @@
+/*цвет основного текста #212121
+цвет вторичного текста #757575
+цвет белогo текста #FFFFFF
+цвет акцента #2196F3
+цвет синий #2196F3
+вторичный цвет фона #2F303A*/
+
+:root
+--accent-color:;
+
+/*=============HEADER=======*/
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+    color: #2196F3;}
+
+.dots {
+    list-style: none; 
+}
+
+.logo-link{
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*текст должен быть черным*/
+}
+
+.navigation-item {
+    text-decoration: none;
+    } 
+
+.navigation-item:hover,
+.navigation-item:focus{
+    color: #2196F3 ;
+}
+.nav-title{
+/*font-family: Roboto, sans-serif;*/
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em; 
+/*текст должен быть черным*/
+}
+
+.connect{
+    color: #757575;
+    font-style: normal;
+    text-decoration: none;
+/*font-family: Roboto, sans-serif;*/
+}
+
+.connect:hover,
+.connect:focus{
+    color: #2196F3 ;
+}
+
+/*=============END HEADER=======*/
+
+/*==========HERO==========*/
+.hero{
+    background-color:#2F303A;
+}
+
+.hero-title{
+    color: #FFFFFF;
+}
+.button{
+background-color: #2196F3;
+color: #ffffff;
+/*font-family: Roboto, sans-serif;*/
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+/*==========END HERO==========*/
+
+/*==================Advantages======*/
+.visually-hidden{
+    visibility: hidden;
+}
+
+.list-title{
+/*font-family: Roboto, sans-serif;*/
+font-weight: 700;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.list-text{
+/*font-family: Roboto, sans-serif;*/
+color: #757575;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+}
+
+/*==== END Advantages======*/
+
+/*=========Чем мы занимаемся====*/
+.titles{
+/*    font-family: Roboto*/
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/*========= END Чем мы занимаемся====*/
+
+/*========= OUR TEAM====*/
+.name{
+/*font-family: Roboto;*/
+font-weight: 500;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.profession{
+font-weight: 400;
+color: #757575;
+}
+
+/*========= END OUR TEAM====*/
+.addresses{
+/*font-family: Roboto;*/
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #ffffff;
+}
+
+.el{
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;}
+
+.logo-footer{
+    color: #ffffff;
+}
+
+
+
