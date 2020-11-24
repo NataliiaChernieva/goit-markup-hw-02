@@ -37,8 +37,11 @@ body {
   /*текст должен быть черным*/
 }
 
-.navigation-item {
+.link {
   text-decoration: none;
+}
+.navigation .link.current {
+  color: var(--accent-color);
 }
 
 .nav-title {
@@ -161,12 +164,42 @@ body {
   background-color: var(--accent-color);
   color: var(--other-color-text);
 }
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(-);
+}
+
+.portfolio-button {
+  width: 101px;
+  height: 26px;
+  left: 734px;
+  top: 180px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .connect:hover,
 .connect:focus,
-.navigation-item:hover,
-.navigation-item:focus,
+.link:hover,
+.link:focus,
 .addresses:hover,
 .addresses:focus,
-.logo-link:focus {
+.logo-link:focus,
+.portfolio-button:focus,
+.portfolio-button:hover {
   color: var(--accent-color);
 }
