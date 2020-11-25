@@ -34,11 +34,11 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: inherit;
 }
 
 .link {
-  color: var(--primary-text-color);
+  color: inherit;
   text-decoration: none;
 }
 .navigation .link.current {
@@ -160,10 +160,9 @@ body {
   color: var(--other-color-text);
 }
 
-.button:hover,
-.button:focus {
-  background-color: var(--accent-color);
-  color: var(--other-color-text);
+.link-decoration {
+  color: inherit;
+  text-decoration: none;
 }
 
 .portfolio-title {
@@ -182,22 +181,29 @@ body {
 }
 
 .portfolio-button {
-  font-family: Roboto, sans-serif; /*не унаследует шрифт  с боди*/
+  font-family: inherit; /*не унаследует шрифт  с боди*/
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
 }
-
+.link-decoration:focus,
+.link-decoration:hover,
 .connect:hover,
 .connect:focus,
 .link:hover,
 .link:focus,
 .addresses:hover,
 .addresses:focus,
-.logo-link:focus,
+.logo-link:focus {
+  color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus,
 .portfolio-button:focus,
 .portfolio-button:hover {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--other-color-text);
 }
